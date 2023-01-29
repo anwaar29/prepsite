@@ -1,0 +1,315 @@
+.parent{
+    display: flex;
+    justify-content:space-between;
+    font-size: 20px;
+}
+#sbox{
+    margin-top: 20px;
+    margin-right: 100px;
+    font-size: 8px;
+}
+#btn1{
+border: 1px solid #FD6E63;
+border-radius: 5px;
+background-color: white;
+font-size: 15px;
+}
+#btn2{
+   background-color: #FD6E63;
+   border-radius: 5px;
+   font-size: 15px;
+    }
+#logoimg{
+    height:80px;
+    width: 200px;
+  
+}
+.p2{
+    width: 60%;
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    left: 34%;
+    bottom: 50px;
+    z-index: +2;
+  
+}
+
+select{
+    border: none;
+   padding: 0px;
+   margin: 0px;
+   font-size: 14px;
+}
+.p2>span{
+    padding: 10px;
+    font-size: 14px;
+}
+/* Banner CSS# */
+#banner{
+    height: 400px;
+    background-image: url('./Images/Abous-Us-Banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    bottom: 50px;
+    border: 2px solid grey;
+    
+}
+.banner-child{
+    height: 300px;
+position:absolute;
+width: 360px;
+color: lightgray;
+font-size: 28px;
+top: 50px;
+left: 5%;
+}
+#banner-btn{
+    position: relative;
+    top: 255px;
+    left: 5%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    border: 1px solid white;
+    background-color: #4B8CE8;
+}
+ /* Vision component css */
+  .overlap{
+    height: 400px;
+    width: 400px;
+   
+    position: relative;
+    left: -10px;
+  }
+ #img1{
+    height: 350px;
+    width: 380px;
+        position: relative;
+        left: -15px;
+       
+ }
+ #img2{
+    height: 350px;
+    width: 380px;
+    position: relative;
+   bottom: 355px;
+   left: -20px;
+   z-index: +3;
+ }
+  #t1{
+    height:30px ;
+    width: 80px;
+    position: absolute;
+    left: 128px;
+    bottom: 345px;
+    z-index: +3;
+ }
+
+#t2{
+    height:30px ;
+    width: 80px;
+    position: absolute;
+    left: 95px;
+    bottom: 300px;
+    
+ }
+   #t3{
+    height:30px ;
+    width: 80px;
+    position: absolute;
+    left: 160px;
+    bottom: 250px;
+ }
+   #t4{
+    height:30px ;
+    width: 80px;
+    position: absolute;
+    width: 160px;
+    left: 110px;
+    bottom: 190px;
+ } 
+
+ 
+
+  .visionparent{
+    height: 100px;
+    width: 50%;
+    color: #4B8CE8;
+    font-weight:500;
+    position: absolute;
+    top: 520px;
+    left: 35%;
+    font-size: 41px;
+ } 
+ .and{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(216, 213, 213);
+    margin-bottom: 0px;
+ }
+ .txtcont{
+    height: 350px;
+    width: 800px;
+    position: relative;
+    top: 20px;
+    background-image: url('./Images/at.jpg');
+    background-repeat: no-repeat;
+ } 
+ 
+  .bgimg{
+    z-index: -2;
+    height: 840px;
+    width: 100%;
+    background-image: url('./Images/bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    bottom: 120px;
+ }
+ .blueline{
+    height: 250px;
+    width: 160px;
+    background-image: url('./Images/blueline.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: right;
+    position:relative;
+ }
+ /* // mid box */
+
+ @media only screen 
+ and (min-device-width : 768px) 
+ and (max-device-width : 1024px) 
+{
+ 
+    .parent{
+         width: 100%;
+        display: flex;
+        justify-content:space-between;
+        font-size: 20px;
+    }  
+    #sbox{
+        margin-top: 20px;
+        margin-right: 70px;
+        font-size: 8px;
+    }
+    #btn1{
+   display: none;
+    }
+    #btn2{
+      display: none;
+        }
+    #logoimg{
+        height: 100px;
+   margin-left: 23%;
+    }
+    .navbar{
+        display: none;
+    }
+
+    /* banner css */
+
+    #banner{
+        height: 400px;
+        width: 100%;
+        background-image: url('./Images/Abous-Us-Banner.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        top: 10px;
+        
+        
+    }
+
+    /* vision css */
+    .overlap{
+        height: 400px;
+        width: 400px;
+        position: relative;
+        left: -10px;
+      }
+     #img1{
+        height: 250px;
+        width: 270px;
+            position: relative;
+            left: -15px;
+            top: 50px;
+           
+     }
+     #img2{
+        height: 250px;
+        width: 270px;
+        position: relative;
+       bottom: 205px;
+       left: -20px;
+       z-index: +3;
+     }
+      #t1{
+        height:20px;
+        width: 70px;
+        position: absolute;
+        left: 89px;
+        bottom: 317px;
+        z-index: +3;
+     }
+    
+    #t2{
+        height:20px;
+        width: 70px;
+        position: absolute;
+        left: 62px;
+        bottom: 280px;
+        
+     }
+       #t3{
+        height:20px;
+        width: 70px;
+        position: absolute;
+        left: 100px;
+        bottom: 250px;
+     }
+       #t4{
+        height:20px;
+        width: 120px;
+        position: absolute;
+        left: 65px;
+        bottom: 190px;
+     } 
+    
+     .txtcont{
+        height: 150px;
+        width: 500px;
+        position: relative;
+        top: 20px;
+        background-image: url('./Images/at.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+     }
+    
+      .visionparent{
+        height: 100px;
+        width: 50%;
+        color: #4B8CE8;
+        font-weight:500;
+        position: absolute;
+        top: 520px;
+        left: 35%;
+        font-size: 41px;
+     } 
+     .bgimg{
+        z-index: -2;
+        height: 840px;
+        width: 100%;
+        background-image: url('./Images/bgimg.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        bottom: 160px;
+     }
+     
+     
+ }
+
