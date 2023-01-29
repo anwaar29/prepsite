@@ -12,11 +12,11 @@ function App() {
     <>
     <div className='main-parent'>
     <Nav/>
-    {/* <Banner/>
+    <Banner/>
     </div>
     <Vision/>
     <Slide1/>
-    <Slide2/> */}
+    <Slide2/>
     <Footer/>
     </>
   );
